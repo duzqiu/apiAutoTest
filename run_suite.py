@@ -14,7 +14,8 @@ suite.addTest(unittest.makeSuite(MoblieHomeTest))
 suite.addTest(unittest.makeSuite(WeatherQueryTest))
 suite.addTest(unittest.makeSuite(NewHandlineTest))
 # 定义报告名称
-report_path = "./report/api-{}.html".format(time.strftime("%Y%m%d %H%M%S"))
+# report_path = "./report/api-{}.html".format(time.strftime("%Y%m%d %H%M%S"))
+report_path = "./report/apireport.html"
 print(report_path)
 # 使用HTMLTestRunner生成测试报告
 with open(report_path, 'wb') as f:
